@@ -1,0 +1,23 @@
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### macOS ###
+.DS_Store
+
+### stock-trading ###
+# 한국투자증권 앱키/시크릿/계좌번호 - 절대 git에 올리지 않기
+secret.yml
+data/
